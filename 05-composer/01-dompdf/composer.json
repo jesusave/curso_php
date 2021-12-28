@@ -1,0 +1,19 @@
+{
+    "name": "avelar/01-dompdf",
+    "description": "Generar archivo PDF con Dompdf",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avelar\\01Dompdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesus Avelar",
+            "email": "jesus.avelar.nav@gmail.com"
+        }
+    ]
+}

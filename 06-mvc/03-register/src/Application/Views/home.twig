@@ -1,0 +1,16 @@
+{% extends 'layout.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            {{ dump(session) }}
+        </div>
+        <div class="col-md-12">
+            <form action="/logout" method="post">
+                <button type="submit" name="submit" class="btn btn-danger">Cerrar sesiòn</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
